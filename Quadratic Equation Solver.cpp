@@ -74,7 +74,7 @@ void quadraticRoots(double a, double b, double c)
 
 int main()
 {
-	std::cout << "This is a solver for a quadratic equation in form Ax^2 + Bx + C = 0.\nPlease privide the following coefficients:\n\n";
+	std::cout << "This program solves for the roots of quadratic equation in standard form: Ax^2 + Bx + C = 0.\nPlease privide the following values:\n\n";
 	const double value1{ constant('A')};
 	const double value2{ constant('B')};
 	const double value3{ constant('C')};
